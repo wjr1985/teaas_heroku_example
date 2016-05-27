@@ -20,16 +20,22 @@ GEM
     jmespath (1.2.4)
       json_pure (>= 1.8.1)
     json_pure (1.8.3)
+    kgio (2.9.3)
     puma (2.15.3)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    raindrops (0.14.0)
     rmagick (2.15.4)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
     tilt (2.0.2)
+    unicorn (4.9.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -42,6 +48,7 @@ DEPENDENCIES
   rmagick
   sinatra
   teaas!
+  unicorn
 
 BUNDLED WITH
    1.11.2
