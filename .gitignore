@@ -1,6 +1,7 @@
 *.gem
 *.rbc
 /.config
+/config/unicorn.rb
 /coverage/
 /InstalledFiles
 /pkg/
